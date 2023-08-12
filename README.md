@@ -2,9 +2,9 @@
 
 # Type Of Site
 
-# Headless CMS used:
+# Headless CMS used: StoryBlok
 
-# Frontend Tool Used: 
+# Frontend Tool Used: Vue and Tailwind CSS
 
 
 3. The team will create a README file containing a description of the type of site, the choice of Headless CMS and frontend tool. 
