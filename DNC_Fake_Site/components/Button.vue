@@ -1,8 +1,8 @@
 <template>
     <div class="flex justify-center">
-        <div v-if="blok" class="flex justify-center p-6 mb-2 bg-blue-500 rounded-xl hover:bg-blue-700">
-            <button class="max-w-sm text-white">{{ blok.label }}</button>
-        </div>
+        <button v-if="blok" class="flex justify-center p-6 mb-2 bg-blue-500 rounded-full hover:bg-blue-700">
+            <p class="max-w-sm text-white">{{ blok.label }}</p>
+        </button>
     </div>
 </template>
 
