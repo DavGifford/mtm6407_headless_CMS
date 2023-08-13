@@ -1,12 +1,14 @@
 <template>
     <div
       v-editable="blok"
-      class="w-full p-12 bg-[#f7f6fd] rounded-[5px]"
+      class="w-full p-12 bg-[#f7f6fd] rounded-xl"
     >
-      <h3 class="text-2xl text-[#1d243d] font-bold">
+    <div class="flex justify-center"><img v-if="blok.image" :src="blok.image.filename" :alt="blok.image.alt" /></div>
+      <h3 class="text-2xl text-[#1d243d] font-bold my-2">
         {{ blok.name }}
       </h3>
       <p>{{ blok.content }}</p>
+     
     </div>
   </template>
    
