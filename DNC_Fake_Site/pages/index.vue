@@ -15,7 +15,7 @@
           }
       },
       created: function() {
-          fetch('https://api-us.storyblok.com/v2/cdn/stories/home?version=draft&token=rvM9sWasvqmGge24WblntAtt&cv=1691953102')
+        fetch('https://api-us.storyblok.com/v2/cdn/stories/home?version=draft&token=rvM9sWasvqmGge24WblntAtt&cv=1691954929')
           .then(resp => resp.json())
           .then(data => this.story = data.story.content)
       }
