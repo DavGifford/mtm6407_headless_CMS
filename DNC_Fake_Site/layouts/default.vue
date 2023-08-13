@@ -5,7 +5,7 @@
                 <NuxtLink to="/" class="font-bold">DNC Fake Site</NuxtLink>
                 <ul class="flex gap-4">
                     <li><NuxtLink to="/">home</NuxtLink></li>
-                    <li><NuxtLink to="/about">about</NuxtLink></li>
+                    <li><NuxtLink to="/services">services</NuxtLink></li>
                 </ul>
             </nav>
         </header>
