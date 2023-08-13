@@ -6,6 +6,7 @@
       <h3 class="text-2xl text-[#1d243d] font-bold">
         {{ blok.name }}
       </h3>
+      <p>{{ blok.content }}</p>
     </div>
   </template>
    
