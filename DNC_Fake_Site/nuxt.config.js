@@ -5,4 +5,8 @@ export default defineNuxtConfig({
 		'@nuxtjs/tailwindcss',
 		['@storyblok/nuxt', { accessToken: 'rvM9sWasvqmGge24WblntAtt' }],
 	],
+	target: 'static',
+	router: {
+	  base: '/mtm6407_headless_CMS/'
+	}
 });
