@@ -8,7 +8,6 @@
         {{ blok.name }}
       </h3>
       <p>{{ blok.content }}</p>
-     
     </div>
   </template>
    
