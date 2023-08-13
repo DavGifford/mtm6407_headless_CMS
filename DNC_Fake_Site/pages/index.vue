@@ -1,6 +1,5 @@
 <template>
 	<div v-for="block in story.body" :key="block._uid">
-        <Banner v-if="block.component === 'banner'" :blok="block" />
         <Alert v-if="block.component === 'Alert'" :blok="block" />
 		<Card v-if="block.component === 'card'" :blok="block" />
 		<Teaser v-if="block.component === 'teaser'" :blok="block" />

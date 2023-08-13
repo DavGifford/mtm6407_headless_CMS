@@ -1,7 +1,7 @@
 <template>
     <div
       v-editable="blok"
-      class="w-full p-12 bg-[#f7f6fd] rounded-xl"
+      class="w-full p-12 bg-[#f7f6fd] rounded-xl drop-shadow-2xl"
     >
     <div class="flex justify-center"><img class="rounded-full" v-if="blok.image" :src="blok.image.filename" :alt="blok.image.alt" /></div>
       <h3 class="text-2xl text-[#1d243d] font-bold my-2">

@@ -1,5 +1,19 @@
 <template>
+
   <div
+    v-editable="blok"
+    class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4"
+  >
+    <div
+      v-for="blok in blok.columns"
+      :key="blok._uid"
+      class="w-full"
+    >
+      <StoryblokComponent :blok="blok" />
+    </div>
+  </div>
+
+  <!-- <div
     v-editable="blok"
     class="container mx-auto grid gap-12 my-12 place-items-center"
   >
@@ -10,7 +24,7 @@
     >
       <StoryblokComponent :blok="blok" />
     </div>
-  </div>
+  </div> -->
 </template>
    
   <script setup>
