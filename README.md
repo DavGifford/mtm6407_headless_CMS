@@ -4,6 +4,4 @@
 
 # Headless CMS used: StoryBlok
 
-# Frontend Tool Used: Vue and Tailwind CSS
-
-
+# Frontend Tool Used: Nuxt, Vue, and Tailwind CSS
