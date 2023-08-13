@@ -1,5 +1,6 @@
 <template>
 	<div v-for="block in story.body" :key="block._uid">
+        <Banner v-if="block.component === 'banner'" :blok="block" />
         <Alert v-if="block.component === 'Alert'" :blok="block" />
 		<Card v-if="block.component === 'card'" :blok="block" />
 		<Teaser v-if="block.component === 'teaser'" :blok="block" />
@@ -15,7 +16,7 @@
           }
       },
       created: function() {
-        fetch('https://api-us.storyblok.com/v2/cdn/stories/home?version=draft&token=rvM9sWasvqmGge24WblntAtt&cv=1691954929')
+        fetch('https://api-us.storyblok.com/v2/cdn/stories/home?version=draft&token=rvM9sWasvqmGge24WblntAtt&cv=1691957663')
           .then(resp => resp.json())
           .then(data => this.story = data.story.content)
       }
